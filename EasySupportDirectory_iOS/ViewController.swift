@@ -1,18 +1,18 @@
 //
 //  ViewController.swift
-//  EasySupportDirectory
+//  EasySupportDirectory_iOS
 //
 //  Created by Jon Worms on 5/18/18.
 //  Copyright © 2018 Jon Worms. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
-class ViewController: NSViewController {
+class ViewController: UIViewController {
 
-    @IBOutlet weak var mOneVal: NSTextField!
-    @IBOutlet weak var mTwoValA: NSTextField!
-    @IBOutlet weak var mTwoValB: NSTextField!
+    @IBOutlet weak var mOneVal: UITextField!
+    @IBOutlet weak var mTwoValA: UITextField!
+    @IBOutlet weak var mTwoValB: UITextField!
     
     
     let moneFileName: String = "mOne File Name"
@@ -20,15 +20,10 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
+    
 
     @IBAction func load(_ sender: Any) {
         
@@ -38,24 +33,24 @@ class ViewController: NSViewController {
         let m2 = m2Array.first
         
         if m1 != nil {
-            mOneVal.stringValue = m1!.valueOne
+            mOneVal.text = m1!.valueOne
         }
         
         if m2 != nil {
-            mTwoValA.stringValue = m2!.valueOne
-            mTwoValB.stringValue = m2!.valueTwo
+            mTwoValA.text = m2!.valueOne
+            mTwoValB.text = m2!.valueTwo
         }
         
     }
     @IBAction func save(_ sender: Any) {
         
         let mone: ModelOne = ModelOne()
-        mone.valueOne = mOneVal.stringValue
+        mone.valueOne = mOneVal.text
         mone.fileName = moneFileName
         
         let mtwo: ModelTwo = ModelTwo();
-        mtwo.valueOne = mTwoValA.stringValue
-        mtwo.valueTwo = mTwoValB.stringValue
+        mtwo.valueOne = mTwoValA.text
+        mtwo.valueTwo = mTwoValB.text
         mtwo.fileName = mtwoFileName
         
         do {
@@ -67,6 +62,5 @@ class ViewController: NSViewController {
         
         
     }
-    
 }
 

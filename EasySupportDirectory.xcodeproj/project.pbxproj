@@ -11,26 +11,18 @@
 		A672A1EF20AFD8BF00A4C4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672A1EE20AFD8BF00A4C4A6 /* ViewController.swift */; };
 		A672A1F120AFD8C000A4C4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A672A1F020AFD8C000A4C4A6 /* Assets.xcassets */; };
 		A672A1F420AFD8C000A4C4A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A672A1F220AFD8C000A4C4A6 /* Main.storyboard */; };
-		A672A20020AFD8C000A4C4A6 /* EasySupportDirectoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672A1FF20AFD8C000A4C4A6 /* EasySupportDirectoryTests.swift */; };
-		A672A20B20AFD8C000A4C4A6 /* EasySupportDirectoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672A20A20AFD8C000A4C4A6 /* EasySupportDirectoryUITests.swift */; };
+		A672A21C20AFD8E900A4C4A6 /* ModelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672A21920AFD8E900A4C4A6 /* ModelTwo.swift */; };
+		A672A21D20AFD8E900A4C4A6 /* SupportFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672A21A20AFD8E900A4C4A6 /* SupportFileManager.swift */; };
+		A672A21E20AFD8E900A4C4A6 /* ModelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672A21B20AFD8E900A4C4A6 /* ModelOne.swift */; };
+		A6FA32C020AFE72400F2866C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA32BF20AFE72400F2866C /* AppDelegate.swift */; };
+		A6FA32C220AFE72400F2866C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FA32C120AFE72400F2866C /* ViewController.swift */; };
+		A6FA32C520AFE72400F2866C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FA32C320AFE72400F2866C /* Main.storyboard */; };
+		A6FA32C720AFE72400F2866C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FA32C620AFE72400F2866C /* Assets.xcassets */; };
+		A6FA32CA20AFE72400F2866C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FA32C820AFE72400F2866C /* LaunchScreen.storyboard */; };
+		A6FA32CF20AFE77A00F2866C /* ModelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672A21B20AFD8E900A4C4A6 /* ModelOne.swift */; };
+		A6FA32D020AFE77B00F2866C /* ModelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672A21920AFD8E900A4C4A6 /* ModelTwo.swift */; };
+		A6FA32D120AFE77F00F2866C /* SupportFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672A21A20AFD8E900A4C4A6 /* SupportFileManager.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A672A1FC20AFD8C000A4C4A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A672A1E120AFD8BF00A4C4A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A672A1E820AFD8BF00A4C4A6;
-			remoteInfo = EasySupportDirectory;
-		};
-		A672A20720AFD8C000A4C4A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A672A1E120AFD8BF00A4C4A6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A672A1E820AFD8BF00A4C4A6;
-			remoteInfo = EasySupportDirectory;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A672A1E920AFD8BF00A4C4A6 /* EasySupportDirectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasySupportDirectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,12 +32,17 @@
 		A672A1F320AFD8C000A4C4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A672A1F520AFD8C000A4C4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A672A1F620AFD8C000A4C4A6 /* EasySupportDirectory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasySupportDirectory.entitlements; sourceTree = "<group>"; };
-		A672A1FB20AFD8C000A4C4A6 /* EasySupportDirectoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySupportDirectoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A672A1FF20AFD8C000A4C4A6 /* EasySupportDirectoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySupportDirectoryTests.swift; sourceTree = "<group>"; };
-		A672A20120AFD8C000A4C4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A672A20620AFD8C000A4C4A6 /* EasySupportDirectoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySupportDirectoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A672A20A20AFD8C000A4C4A6 /* EasySupportDirectoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySupportDirectoryUITests.swift; sourceTree = "<group>"; };
-		A672A20C20AFD8C000A4C4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A672A21920AFD8E900A4C4A6 /* ModelTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTwo.swift; sourceTree = "<group>"; };
+		A672A21A20AFD8E900A4C4A6 /* SupportFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportFileManager.swift; sourceTree = "<group>"; };
+		A672A21B20AFD8E900A4C4A6 /* ModelOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelOne.swift; sourceTree = "<group>"; };
+		A6FA32BD20AFE72400F2866C /* EasySupportDirectory_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasySupportDirectory_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FA32BF20AFE72400F2866C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6FA32C120AFE72400F2866C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6FA32C420AFE72400F2866C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6FA32C620AFE72400F2866C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6FA32C920AFE72400F2866C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6FA32CB20AFE72400F2866C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FA32D220AFEAB600F2866C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,14 +53,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A672A1F820AFD8C000A4C4A6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A672A20320AFD8C000A4C4A6 /* Frameworks */ = {
+		A6FA32BA20AFE72400F2866C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,9 +66,10 @@
 		A672A1E020AFD8BF00A4C4A6 = {
 			isa = PBXGroup;
 			children = (
+				A6FA32D220AFEAB600F2866C /* README.md */,
+				A672A21820AFD8DF00A4C4A6 /* Common */,
 				A672A1EB20AFD8BF00A4C4A6 /* EasySupportDirectory */,
-				A672A1FE20AFD8C000A4C4A6 /* EasySupportDirectoryTests */,
-				A672A20920AFD8C000A4C4A6 /* EasySupportDirectoryUITests */,
+				A6FA32BE20AFE72400F2866C /* EasySupportDirectory_iOS */,
 				A672A1EA20AFD8BF00A4C4A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,8 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A672A1E920AFD8BF00A4C4A6 /* EasySupportDirectory.app */,
-				A672A1FB20AFD8C000A4C4A6 /* EasySupportDirectoryTests.xctest */,
-				A672A20620AFD8C000A4C4A6 /* EasySupportDirectoryUITests.xctest */,
+				A6FA32BD20AFE72400F2866C /* EasySupportDirectory_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,22 +96,27 @@
 			path = EasySupportDirectory;
 			sourceTree = "<group>";
 		};
-		A672A1FE20AFD8C000A4C4A6 /* EasySupportDirectoryTests */ = {
+		A672A21820AFD8DF00A4C4A6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				A672A1FF20AFD8C000A4C4A6 /* EasySupportDirectoryTests.swift */,
-				A672A20120AFD8C000A4C4A6 /* Info.plist */,
+				A672A21B20AFD8E900A4C4A6 /* ModelOne.swift */,
+				A672A21920AFD8E900A4C4A6 /* ModelTwo.swift */,
+				A672A21A20AFD8E900A4C4A6 /* SupportFileManager.swift */,
 			);
-			path = EasySupportDirectoryTests;
+			path = Common;
 			sourceTree = "<group>";
 		};
-		A672A20920AFD8C000A4C4A6 /* EasySupportDirectoryUITests */ = {
+		A6FA32BE20AFE72400F2866C /* EasySupportDirectory_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A672A20A20AFD8C000A4C4A6 /* EasySupportDirectoryUITests.swift */,
-				A672A20C20AFD8C000A4C4A6 /* Info.plist */,
+				A6FA32BF20AFE72400F2866C /* AppDelegate.swift */,
+				A6FA32C120AFE72400F2866C /* ViewController.swift */,
+				A6FA32C320AFE72400F2866C /* Main.storyboard */,
+				A6FA32C620AFE72400F2866C /* Assets.xcassets */,
+				A6FA32C820AFE72400F2866C /* LaunchScreen.storyboard */,
+				A6FA32CB20AFE72400F2866C /* Info.plist */,
 			);
-			path = EasySupportDirectoryUITests;
+			path = EasySupportDirectory_iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,41 +139,22 @@
 			productReference = A672A1E920AFD8BF00A4C4A6 /* EasySupportDirectory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A672A1FA20AFD8C000A4C4A6 /* EasySupportDirectoryTests */ = {
+		A6FA32BC20AFE72400F2866C /* EasySupportDirectory_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A672A21220AFD8C000A4C4A6 /* Build configuration list for PBXNativeTarget "EasySupportDirectoryTests" */;
+			buildConfigurationList = A6FA32CE20AFE72400F2866C /* Build configuration list for PBXNativeTarget "EasySupportDirectory_iOS" */;
 			buildPhases = (
-				A672A1F720AFD8C000A4C4A6 /* Sources */,
-				A672A1F820AFD8C000A4C4A6 /* Frameworks */,
-				A672A1F920AFD8C000A4C4A6 /* Resources */,
+				A6FA32B920AFE72400F2866C /* Sources */,
+				A6FA32BA20AFE72400F2866C /* Frameworks */,
+				A6FA32BB20AFE72400F2866C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A672A1FD20AFD8C000A4C4A6 /* PBXTargetDependency */,
 			);
-			name = EasySupportDirectoryTests;
-			productName = EasySupportDirectoryTests;
-			productReference = A672A1FB20AFD8C000A4C4A6 /* EasySupportDirectoryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A672A20520AFD8C000A4C4A6 /* EasySupportDirectoryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A672A21520AFD8C000A4C4A6 /* Build configuration list for PBXNativeTarget "EasySupportDirectoryUITests" */;
-			buildPhases = (
-				A672A20220AFD8C000A4C4A6 /* Sources */,
-				A672A20320AFD8C000A4C4A6 /* Frameworks */,
-				A672A20420AFD8C000A4C4A6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A672A20820AFD8C000A4C4A6 /* PBXTargetDependency */,
-			);
-			name = EasySupportDirectoryUITests;
-			productName = EasySupportDirectoryUITests;
-			productReference = A672A20620AFD8C000A4C4A6 /* EasySupportDirectoryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = EasySupportDirectory_iOS;
+			productName = EasySupportDirectory_iOS;
+			productReference = A6FA32BD20AFE72400F2866C /* EasySupportDirectory_iOS.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,13 +169,8 @@
 					A672A1E820AFD8BF00A4C4A6 = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
-					A672A1FA20AFD8C000A4C4A6 = {
+					A6FA32BC20AFE72400F2866C = {
 						CreatedOnToolsVersion = 9.3.1;
-						TestTargetID = A672A1E820AFD8BF00A4C4A6;
-					};
-					A672A20520AFD8C000A4C4A6 = {
-						CreatedOnToolsVersion = 9.3.1;
-						TestTargetID = A672A1E820AFD8BF00A4C4A6;
 					};
 				};
 			};
@@ -217,8 +188,7 @@
 			projectRoot = "";
 			targets = (
 				A672A1E820AFD8BF00A4C4A6 /* EasySupportDirectory */,
-				A672A1FA20AFD8C000A4C4A6 /* EasySupportDirectoryTests */,
-				A672A20520AFD8C000A4C4A6 /* EasySupportDirectoryUITests */,
+				A6FA32BC20AFE72400F2866C /* EasySupportDirectory_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -233,17 +203,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A672A1F920AFD8C000A4C4A6 /* Resources */ = {
+		A6FA32BB20AFE72400F2866C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A672A20420AFD8C000A4C4A6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A6FA32CA20AFE72400F2866C /* LaunchScreen.storyboard in Resources */,
+				A6FA32C720AFE72400F2866C /* Assets.xcassets in Resources */,
+				A6FA32C520AFE72400F2866C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,41 +220,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A672A21C20AFD8E900A4C4A6 /* ModelTwo.swift in Sources */,
+				A672A21E20AFD8E900A4C4A6 /* ModelOne.swift in Sources */,
 				A672A1EF20AFD8BF00A4C4A6 /* ViewController.swift in Sources */,
 				A672A1ED20AFD8BF00A4C4A6 /* AppDelegate.swift in Sources */,
+				A672A21D20AFD8E900A4C4A6 /* SupportFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A672A1F720AFD8C000A4C4A6 /* Sources */ = {
+		A6FA32B920AFE72400F2866C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A672A20020AFD8C000A4C4A6 /* EasySupportDirectoryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A672A20220AFD8C000A4C4A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A672A20B20AFD8C000A4C4A6 /* EasySupportDirectoryUITests.swift in Sources */,
+				A6FA32D020AFE77B00F2866C /* ModelTwo.swift in Sources */,
+				A6FA32CF20AFE77A00F2866C /* ModelOne.swift in Sources */,
+				A6FA32C220AFE72400F2866C /* ViewController.swift in Sources */,
+				A6FA32D120AFE77F00F2866C /* SupportFileManager.swift in Sources */,
+				A6FA32C020AFE72400F2866C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A672A1FD20AFD8C000A4C4A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A672A1E820AFD8BF00A4C4A6 /* EasySupportDirectory */;
-			targetProxy = A672A1FC20AFD8C000A4C4A6 /* PBXContainerItemProxy */;
-		};
-		A672A20820AFD8C000A4C4A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A672A1E820AFD8BF00A4C4A6 /* EasySupportDirectory */;
-			targetProxy = A672A20720AFD8C000A4C4A6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A672A1F220AFD8C000A4C4A6 /* Main.storyboard */ = {
@@ -297,6 +249,22 @@
 				A672A1F320AFD8C000A4C4A6 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6FA32C320AFE72400F2866C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FA32C420AFE72400F2866C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6FA32C820AFE72400F2866C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FA32C920AFE72400F2866C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -451,81 +419,44 @@
 			};
 			name = Release;
 		};
-		A672A21320AFD8C000A4C4A6 /* Debug */ = {
+		A6FA32CC20AFE72400F2866C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EasySupportDirectoryTests/Info.plist;
+				INFOPLIST_FILE = EasySupportDirectory_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonworms.EasySupportDirectoryTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonworms.EasySupportDirectory-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasySupportDirectory.app/Contents/MacOS/EasySupportDirectory";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A672A21420AFD8C000A4C4A6 /* Release */ = {
+		A6FA32CD20AFE72400F2866C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EasySupportDirectoryTests/Info.plist;
+				INFOPLIST_FILE = EasySupportDirectory_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonworms.EasySupportDirectoryTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonworms.EasySupportDirectory-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasySupportDirectory.app/Contents/MacOS/EasySupportDirectory";
-			};
-			name = Release;
-		};
-		A672A21620AFD8C000A4C4A6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EasySupportDirectoryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonworms.EasySupportDirectoryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = EasySupportDirectory;
-			};
-			name = Debug;
-		};
-		A672A21720AFD8C000A4C4A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EasySupportDirectoryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonworms.EasySupportDirectoryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = EasySupportDirectory;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -550,20 +481,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A672A21220AFD8C000A4C4A6 /* Build configuration list for PBXNativeTarget "EasySupportDirectoryTests" */ = {
+		A6FA32CE20AFE72400F2866C /* Build configuration list for PBXNativeTarget "EasySupportDirectory_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A672A21320AFD8C000A4C4A6 /* Debug */,
-				A672A21420AFD8C000A4C4A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A672A21520AFD8C000A4C4A6 /* Build configuration list for PBXNativeTarget "EasySupportDirectoryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A672A21620AFD8C000A4C4A6 /* Debug */,
-				A672A21720AFD8C000A4C4A6 /* Release */,
+				A6FA32CC20AFE72400F2866C /* Debug */,
+				A6FA32CD20AFE72400F2866C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
